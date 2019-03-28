@@ -10,7 +10,7 @@ body {
 
 .contarin {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%);
 }
@@ -22,6 +22,10 @@ body {
     width: 150px;
     background-color: #fff;
     box-shadow: inset -4px -4px 20px 0px #b9b1b1, -1px -1px 6px 0 #6d6d6d, 1px 1px 0px 0 #6d6d6d;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .contarin .lottery:focus {
@@ -37,23 +41,18 @@ body {
 
 .contarin .information {
     width: 800px;
-    height: 50px;
+    height: 70px;
     border-radius: 5px;
     background-color: #4c4249;
     border: 0;
     color: #ffffff;
     font-weight: bolder;
     text-align: center;
-    font-size: 30px
+    font-size: 50px
 }
 
 .hidden {
     display: none !important;
 }
 
-#stopBtn {
-    position: absolute;
-    top: 300px;
-    left: 50%;
-    transform: translateX(-50%);
-}
+#stopBtn {}
